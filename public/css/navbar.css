@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -22,8 +21,42 @@ header {
     height: 90px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 header img {
     margin: 0 145px;
+}
+
+header ul {
+    margin: 0 145px;
+}
+
+.menu ul li {
+    color: #ffffff;
+    list-style: none;
+    float: right;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    margin: 0 20px;
+}
+
+.menu ul li:hover {
+    color: #FEB30A;
+}
+
+#arrow-icon {
+    color: #fff;
+    transition: all .3s ease-in-out;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#arrow-icon:hover {
+    color: #FEB30A;
 }
